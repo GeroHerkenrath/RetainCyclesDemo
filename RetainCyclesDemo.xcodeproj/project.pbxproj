@@ -13,6 +13,8 @@
 		C5B497F8299CCE610066B0D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B497F7299CCE610066B0D1 /* Preview Assets.xcassets */; };
 		C5B49802299CCE610066B0D1 /* RetainCyclesDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B49801299CCE610066B0D1 /* RetainCyclesDemoTests.swift */; };
 		C5B4980C299CCE610066B0D1 /* RetainCyclesDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B4980B299CCE610066B0D1 /* RetainCyclesDemoUITests.swift */; };
+		C5B4981B299CD9310066B0D1 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B4981A299CD9310066B0D1 /* NotificationManager.swift */; };
+		C5B4981E299CE08C0066B0D1 /* ProblemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B4981D299CE08C0066B0D1 /* ProblemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +44,9 @@
 		C5B49801299CCE610066B0D1 /* RetainCyclesDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetainCyclesDemoTests.swift; sourceTree = "<group>"; };
 		C5B49807299CCE610066B0D1 /* RetainCyclesDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetainCyclesDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5B4980B299CCE610066B0D1 /* RetainCyclesDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetainCyclesDemoUITests.swift; sourceTree = "<group>"; };
+		C5B4981A299CD9310066B0D1 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		C5B4981C299CDEC50066B0D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C5B4981D299CE08C0066B0D1 /* ProblemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 				C5B4981C299CDEC50066B0D1 /* Info.plist */,
 				C5B497F0299CCE5F0066B0D1 /* RetainCyclesDemoApp.swift */,
 				C5B497F2299CCE5F0066B0D1 /* ContentView.swift */,
+				C5B4981A299CD9310066B0D1 /* NotificationManager.swift */,
+				C5B4981D299CE08C0066B0D1 /* ProblemView.swift */,
 				C5B497F4299CCE610066B0D1 /* Assets.xcassets */,
 				C5B497F6299CCE610066B0D1 /* Preview Content */,
 			);
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5B4981E299CE08C0066B0D1 /* ProblemView.swift in Sources */,
+				C5B4981B299CD9310066B0D1 /* NotificationManager.swift in Sources */,
 				C5B497F3299CCE5F0066B0D1 /* ContentView.swift in Sources */,
 				C5B497F1299CCE5F0066B0D1 /* RetainCyclesDemoApp.swift in Sources */,
 			);
