@@ -17,7 +17,11 @@ import Combine
 
     init() {
         print("creating a new model with UUID: \(uuid.uuidString)")
-        listener = NotificationListener(callback: increaseCounter)
+//        listener = NotificationListener(callback: increaseCounter)
+        let weakThunk: @MainActor () -> Void = { [weak self] in
+            self?.increaseCounter()
+        }
+        listener = NotificationListener(callback: weakThunk)
     }
 
     func increaseCounter() {
