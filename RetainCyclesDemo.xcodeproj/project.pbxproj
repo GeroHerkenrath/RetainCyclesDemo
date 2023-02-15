@@ -49,6 +49,9 @@
 		C5B4981C299CDEC50066B0D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C5B4981D299CE08C0066B0D1 /* ProblemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemView.swift; sourceTree = "<group>"; };
 		C5B4981F299CE16E0066B0D1 /* ProblemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemModel.swift; sourceTree = "<group>"; };
+		C5B49822299CF6E60066B0D1 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		C5B49823299CF6E70066B0D1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		C5B49824299CF7050066B0D1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 		C5B497EF299CCE5F0066B0D1 /* RetainCyclesDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C5B49821299CF6B30066B0D1 /* Project Management */,
 				C5B4981C299CDEC50066B0D1 /* Info.plist */,
 				C5B497F0299CCE5F0066B0D1 /* RetainCyclesDemoApp.swift */,
 				C5B497F2299CCE5F0066B0D1 /* ContentView.swift */,
@@ -133,6 +137,16 @@
 				C5B4980B299CCE610066B0D1 /* RetainCyclesDemoUITests.swift */,
 			);
 			path = RetainCyclesDemoUITests;
+			sourceTree = "<group>";
+		};
+		C5B49821299CF6B30066B0D1 /* Project Management */ = {
+			isa = PBXGroup;
+			children = (
+				C5B49823299CF6E70066B0D1 /* README.md */,
+				C5B49822299CF6E60066B0D1 /* LICENSE */,
+				C5B49824299CF7050066B0D1 /* .gitignore */,
+			);
+			name = "Project Management";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
