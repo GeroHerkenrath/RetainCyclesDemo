@@ -12,7 +12,7 @@ enum NotificationManager {
     static let notificationName = Notification.Name("\(UUID().uuidString).retainDemoNotification")
 
     static func postNotification() {
-        print("Posting ONE notification")
+        print("\nPosting ONE notification")
         NotificationCenter.default.post(Notification(name: Self.notificationName))
     }
 }
