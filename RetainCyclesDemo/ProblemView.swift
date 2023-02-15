@@ -9,13 +9,22 @@ import SwiftUI
 
 struct ProblemView: View {
 
+    @StateObject var model = ProblemModel()
+
     var body: some View {
         ZStack {
             Rectangle()
                 .foregroundColor(.red)
-            Text("Problem View")
-                .fontWeight(.bold)
-                .dynamicTypeSize(.xxxLarge)
+            VStack {
+                Text("Problem View")
+                    .fontWeight(.bold)
+                    .dynamicTypeSize(.xxxLarge)
+                HStack {
+                    Text("Caught Notifications:")
+                    Text("\(model.caughtNotificationsCount)")
+                }
+                .padding()
+            }
         }
     }
 }

@@ -15,6 +15,7 @@
 		C5B4980C299CCE610066B0D1 /* RetainCyclesDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B4980B299CCE610066B0D1 /* RetainCyclesDemoUITests.swift */; };
 		C5B4981B299CD9310066B0D1 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B4981A299CD9310066B0D1 /* NotificationManager.swift */; };
 		C5B4981E299CE08C0066B0D1 /* ProblemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B4981D299CE08C0066B0D1 /* ProblemView.swift */; };
+		C5B49820299CE16E0066B0D1 /* ProblemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B4981F299CE16E0066B0D1 /* ProblemModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C5B4981A299CD9310066B0D1 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		C5B4981C299CDEC50066B0D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C5B4981D299CE08C0066B0D1 /* ProblemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemView.swift; sourceTree = "<group>"; };
+		C5B4981F299CE16E0066B0D1 /* ProblemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				C5B497F2299CCE5F0066B0D1 /* ContentView.swift */,
 				C5B4981A299CD9310066B0D1 /* NotificationManager.swift */,
 				C5B4981D299CE08C0066B0D1 /* ProblemView.swift */,
+				C5B4981F299CE16E0066B0D1 /* ProblemModel.swift */,
 				C5B497F4299CCE610066B0D1 /* Assets.xcassets */,
 				C5B497F6299CCE610066B0D1 /* Preview Content */,
 			);
@@ -265,6 +268,7 @@
 				C5B4981E299CE08C0066B0D1 /* ProblemView.swift in Sources */,
 				C5B4981B299CD9310066B0D1 /* NotificationManager.swift in Sources */,
 				C5B497F3299CCE5F0066B0D1 /* ContentView.swift in Sources */,
+				C5B49820299CE16E0066B0D1 /* ProblemModel.swift in Sources */,
 				C5B497F1299CCE5F0066B0D1 /* RetainCyclesDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
